@@ -18,7 +18,7 @@ const articles = getArticles(); // 返回 Article[]
 
 // ========== 配置区域 ==========
 // 部署域名（请修改为你的实际域名）
-const BASE_URL = 'https://你的用户名.github.io/personal-blog';
+const BASE_URL = 'https://Oriettta.github.io/personal-blog';
 // 静态路由列表
 const staticRoutes = [
   { path: '/', priority: '1.0', changefreq: 'weekly' },
