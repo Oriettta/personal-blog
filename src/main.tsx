@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter } from 'react-router-dom';   // ① 导入路由
-import { HelmetProvider } from 'react-helmet-async'; // ② 导入Helmet提供者
+import { BrowserRouter } from 'react-router-dom';
+import { HelmetProvider } from 'react-helmet-async';
 import App from './App';
 import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <HelmetProvider>        {/* ③ 包裹HelmetProvider */}
-      <BrowserRouter basename="/personal-blog">  {/* ④ basename与GitHub Pages仓库名一致 */}
+    <HelmetProvider>
+      <BrowserRouter>
         <App />
       </BrowserRouter>
     </HelmetProvider>
