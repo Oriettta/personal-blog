@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import styles from './Sidebar.module.css';
 import reactSvg from '../assets/react.svg';
-import pzPng from '../assets/peizheng.png';
+import doubaoPng from '../assets/doubao.png';
 import baiduPng  from '../assets/baidu.png';
 
 // 定义 Props 类型，包含一个可选的函数
@@ -50,10 +50,10 @@ const Sidebar: React.FC<SidebarProps> = ({onSubscribe}) => {
         <div className={styles.authorInfo}>
           <img
             src={reactSvg}
-            alt="张三"
+            alt="Oriettta"
             className={styles.avatar}
           />
-          <p>zzz，全栈开发工程师，热爱分享技术。拥有5年一线大厂经验，目前专注于前端工程化与性能优化。</p>
+          <p>一名正在学习与实践中的个人开发者。目前对前后端开发都有浓厚兴趣，同时在学习 React 生态、前端工程化与项目性能优化。</p>
         </div>
       </section>
 
@@ -87,7 +87,7 @@ const Sidebar: React.FC<SidebarProps> = ({onSubscribe}) => {
       <section className={styles.widget}>
         <h3>合作伙伴</h3>
         <div className={styles.partners}>
-          <img src={pzPng} alt="Partner 1" />
+          <img src={doubaoPng} alt="Partner 1" />
           <img src={baiduPng} alt="Partner 2" />
         </div>
       </section>
